@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
     let isDarkTheme = false;
     const typedText = document.getElementById('typed-text');
     const typedStrings = [
-        'Frontend Developer',
-        'UI/UX Designer',
+        'Full-Stack MERN Developer',
+        'Blockchain Developer',
         'React Specialist',
         'Web Developer'
     ];
