@@ -84,14 +84,11 @@ Select branch (main) and folder (root)
 
 Site live at https://username.github.io/repository
 
-🤝 Contributing
-Pull requests are welcome. For major changes, please open an issue first.
-
 📄 License
 This project is licensed under the MIT License - see LICENSE file.
 
 👨‍💻 Author
-Farman Saqib - Frontend Developer
+Farman Saqib - Full Stack MERN Developer
 📧 Fscode652@gmail.com
 📍 Pakistan
 🔗 GitHub Profile
@@ -104,22 +101,6 @@ Google Fonts for typography
 Devicon for technology icons
 
 ⭐ If you find this project useful, please give it a star!
-
-text
-
-## How to use this file:
-
-1. **Save the file:**
-   - Create a new file named `README.md` in your project folder
-   - Copy and paste the entire content above
-   - Replace placeholders:
-     - `yourusername` with your actual GitHub username
-     - `https://yourusername.github.io/farman-portfolio` with your actual live URL
-     - Add your actual GitHub profile link
-
-2. **Add a LICENSE file (optional but recommended):**
-   ```txt
-   MIT License
 
    Copyright (c) 2025 Farman Saqib
 
