@@ -98,6 +98,22 @@ document.addEventListener('DOMContentLoaded', function() {
             link.addEventListener('click', closeMobileMenu);
         });
         
+        // Resume buttons
+        const resumeBtns = document.querySelectorAll('.resume-btn');
+        resumeBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Open resume in new tab
+                window.open('resume.pdf', '_blank');
+                // Trigger download
+                const link = document.createElement('a');
+                link.href = 'resume.pdf';
+                link.download = 'Farman_Saqib_Resume.pdf';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            });
+        });
+        
         // Back to top button
         window.addEventListener('scroll', handleScroll);
         if (backToTop) {
